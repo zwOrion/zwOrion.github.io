@@ -1,0 +1,83 @@
+header:
+
+  - title: 首页
+    url:   /index.html
+
+  - title: Minecraft
+    url:   https://zwOrion.github.io/2020/07/02/minecraft.html
+
+  - title: Minecraft2
+    url:   /minecraft.html
+
+  - title: Minecraft3
+    url:   /myPages/minecraft.html
+
+  - title: Other
+    url:   https://zwOrion.github.io/2020/07/02/other.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+      fr      : &FR       Archives
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /archive.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  關於
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       소개
+      ko-KR   : *KO
+      fr      : &FR       À propos
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /about.html
+
+
+docs-zh:
+  - title: 导航示例
+    children:
+      - title: Welcome
+        url: https://zwOrion.github.io/2018/07/01/welcome.html
+      - title: Post with Header Image
+        url: https://zwOrion.github.io/2018/06/01/header-image.html
+
+docs-minecraft:
+  - title: Minecraft
+    children:
+      - title: title
+        url: https://zwOrion.github.io/2020/07/03/title.html
+      - title: Info
+        url: https://zwOrion.github.io/2020/07/03/Info.html
