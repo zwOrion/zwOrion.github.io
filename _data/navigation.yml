@@ -9,8 +9,8 @@ header:
   - title: Minecraft2
     url:   /minecraft.html
 
-  - title: Minecraft3
-    url:   /myPages/minecraft.html
+  - title: Minecraft Mod
+    url:   /myPages/minecraft/minecraft.html
 
   - title: Other
     url:   https://zwOrion.github.io/2020/07/02/other.html
@@ -81,3 +81,11 @@ docs-minecraft:
         url: https://zwOrion.github.io/2020/07/03/title.html
       - title: Info
         url: https://zwOrion.github.io/2020/07/03/Info.html
+
+docs-minecraft-mod:
+  - title: Minecraft Mod
+    children:
+      - title: title
+        url: /myPages/minecraft/title.html
+      - title: Info
+        url: /myPages/minecraft/info.html
